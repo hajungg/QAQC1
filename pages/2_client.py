@@ -5,7 +5,7 @@ from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 import datetime
 # 예시 데이터 로드
-df_filtered = pd.read_csv("C:/Users/hajun/Desktop/cooding/dash/Merged_Dataset_re (1).csv")
+df_filtered = pd.read_csv("https://github.com/hajungg/QAQC1/edit/main/Merged_Dataset_re (1).csv")
 
 df_filtered = df_filtered.dropna(subset=['ambient_temperature', 'discharge_voltage', 'Rct', 'SOH', 'RUL'])
 
